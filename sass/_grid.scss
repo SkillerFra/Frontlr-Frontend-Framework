@@ -1,0 +1,56 @@
+/*responsive grid row*/
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*grid-size variables*/
+/* up to 480px 1 column max */
+/* 481px to 768px 6 column max*/
+/* 769px to 1024px 9column max*/
+/* 1025px+ 12 column max*/
+$ps-min: 0px;
+$ps-max: 480px;
+$ss-min: $ps-max + 1px;
+$ss-max: 768px;
+$ms-min: $ss-max + 1px;
+$ms-max: 1024px;
+
+/*default grid(column:12) with mobile grid(column: 1)*/
+@for $i from 1 through 12 {
+    $width-cal: 100% / 12 * $i;
+    .col-#{$i} {
+        width: $width-cal;
+    }
+    @media all and (min-width: $ps-min) and (max-width: $ps-max) {
+        .col-#{$i} {
+            width: 100%;
+        }
+    }
+
+};
+
+.test {
+    border: 1px solid;
+}
+/*small-size grid from 461 px to 768px(column: 6)*/
+
+@media all and (min-width: $ss-min) and (max-width: $ss-max) {
+    @for $i from 1 through 6 {
+        $width-cal: 100% / 6 * $i;
+        .col-ss-#{$i} {
+            width: $width-cal;
+        }
+    }
+};
+
+/*medium-size grid from 769px to 1024px(column: 9)*/
+
+@media all and (min-width: $ms-min) and (max-width: $ms-max) {
+    @for $i from 1 to 9 {
+        $width-cal: 100% / 9 * $i;
+        .col-ms-#{$i} {
+            width: $width-cal;
+        }
+    }
+};

@@ -1,0 +1,884 @@
+/*Global default resets*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+/*container classses with fixed width*/
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.container-90 {
+  width: 90%;
+  height: auto;
+}
+
+.container-80 {
+  width: 80%;
+  height: auto;
+}
+
+.container-70 {
+  width: 70%;
+  height: auto;
+}
+
+.container-60 {
+  width: 60%;
+  height: auto;
+}
+
+.container-50 {
+  width: 50%;
+  height: auto;
+}
+
+.container-40 {
+  width: 40%;
+  height: auto;
+}
+
+.container-30 {
+  width: 30%;
+  height: auto;
+}
+
+.container-20 {
+  width: 20%;
+  height: auto;
+}
+
+.container-10 {
+  width: 10%;
+  height: auto;
+}
+
+/* position content horizontal*/
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+/*Color Themes*/
+/*Color Variables*/
+/*Dark Theme Variables*/
+/*Dark Theme Classes*/
+.d-w {
+  background-color: #ffffff;
+}
+
+.dark-white {
+  background-color: #ffffff;
+}
+
+.d-ld {
+  background-color: #393e46;
+}
+
+.dark-light-dark {
+  background-color: #393e46;
+}
+
+.d-d {
+  background-color: #263238;
+}
+
+.dark-dark {
+  background-color: #263238;
+}
+
+.d-dd {
+  background-color: #222831;
+}
+
+.dark-dark-dark {
+  background-color: #222831;
+}
+
+/*Blue Theme Variables*/
+/*Blue Theme Classes*/
+.b-w {
+  background-color: #ffffff;
+}
+
+.blue-white {
+  background-color: #ffffff;
+}
+
+.b-lb {
+  background-color: #dbe2ef;
+}
+
+.blue-light-blue {
+  background-color: #dbe2ef;
+}
+
+.b-b {
+  background-color: #3f72af;
+}
+
+.blue-blue {
+  background-color: #3f72af;
+}
+
+.b-db {
+  background-color: #112d4e;
+}
+
+.blue-dark-blue {
+  background-color: #112d4e;
+}
+
+/*Green Theme Variables*/
+/*Green Theme Classes*/
+.g-w {
+  background-color: #ffffff;
+}
+
+.green-white {
+  background-color: #ffffff;
+}
+
+.g-lg {
+  background-color: #9df3c4;
+}
+
+.green-light-green {
+  background-color: #9df3c4;
+}
+
+.g-g {
+  background-color: #62d2a2;
+}
+
+.green-green {
+  background-color: #62d2a2;
+}
+
+.g-dg {
+  background-color: #1fab89;
+}
+
+.green-dark-green {
+  background-color: #1fab89;
+}
+
+/*Red Theme Variables*/
+/*Red Theme Classses*/
+.r-w {
+  background-color: #ffffff;
+}
+
+.red-white {
+  background-color: #ffffff;
+}
+
+.r-lr {
+  background-color: #e3afbc;
+}
+
+.red-light-red {
+  background-color: #e3afbc;
+}
+
+.r-r {
+  background-color: #9a1750;
+}
+
+.red-red {
+  background-color: #9a1750;
+}
+
+.r-dr {
+  background-color: #5d001e;
+}
+
+.red-dark-red {
+  background-color: #5d001e;
+}
+
+/*Orange Theme Variables*/
+/*Orange Theme Classes*/
+.o-w {
+  background-color: #ffffff;
+}
+
+.orange-white {
+  background-color: #ffffff;
+}
+
+.o-lo {
+  background-color: #ffaf42;
+}
+
+.orange-light-orange {
+  background-color: #ffaf42;
+}
+
+.o-o {
+  background-color: #fe6e00;
+}
+
+.orange-orange {
+  background-color: #fe6e00;
+}
+
+.o-do {
+  background-color: #fd5602;
+}
+
+.orange-dark-orange {
+  background-color: #fd5602;
+}
+
+/*Yellow Theme Variables*/
+/*Yellow Theme Classes*/
+.y-w {
+  background-color: #ffffff;
+}
+
+.yellow-white {
+  background-color: #ffffff;
+}
+
+.y-ly {
+  background-color: #ffe000;
+}
+
+.yellow-light-yellow {
+  background-color: #ffe000;
+}
+
+.y-y {
+  background-color: #ffd802;
+}
+
+.yellow-yellow {
+  background-color: #ffd802;
+}
+
+.y-dy {
+  background-color: #fcc201;
+}
+
+.yellow-dark-yellow {
+  background-color: #fcc201;
+}
+
+/*Purple Theme Variables*/
+/*Purple Theme Classes*/
+.p-w {
+  background-color: #ffffff;
+}
+
+.purple-white {
+  background-color: #ffffff;
+}
+
+.p-lp {
+  background-color: #de95ba;
+}
+
+.purple-light-purple {
+  background-color: #de95ba;
+}
+
+.p-p {
+  background-color: #7f4a88;
+}
+
+.purple-purple {
+  background-color: #7f4a88;
+}
+
+.p-dp {
+  background-color: #4a266a;
+}
+
+.purple-dark-purple {
+  background-color: #4a266a;
+}
+
+/*Grey Theme Variables*/
+/*Grey Theme Classes*/
+.g-w {
+  background-color: #ffffff;
+}
+
+.grey-white {
+  background-color: #ffffff;
+}
+
+.g-lg {
+  background-color: #e7e7e7;
+}
+
+.grey-light-grey {
+  background-color: #e7e7e7;
+}
+
+.g-g {
+  background-color: #d1d1d1;
+}
+
+.grey-grey {
+  background-color: #d1d1d1;
+}
+
+.g-dg {
+  background-color: #9b9b9b;
+}
+
+.grey-dark-grey {
+  background-color: #9b9b9b;
+}
+
+/*font stylesheet*/
+/*safe fonts*/
+/*serif fonts*/
+.f-gerogia {
+  font-family: Georgia, serif;
+}
+
+.f-palation-lino {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.f-tnr {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*sans-serif fonts*/
+.f-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-arial-black {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.f-comic-sans {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.f_impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.f-luciada-sans-unicode {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.f-tahoma {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.f_trebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.f-verdana {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/*monospace fonts*/
+.f-courier {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.f-lucida-console {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+/*font weight*/
+.fw-supersmall {
+  font-weight: 100;
+}
+
+.fw-small {
+  font-weight: 200;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-bolder {
+  font-weight: 900;
+}
+
+/*font sizes*/
+.fs-small {
+  font-size: 0.75rem;
+  font-size: 12px;
+  /*fallback*/
+}
+
+.fs-regular {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+}
+
+.fs-medium {
+  font-size: 1.125rem;
+  font-size: 18px;
+  /*fallback*/
+}
+
+.fs-large {
+  font-size: 1.5rem;
+  font-size: 24px;
+  /*fallback*/
+}
+
+.fs-larger {
+  font-size: 2rem;
+  font-size: 32px;
+  /*fallback*/
+}
+
+.fs-superlarge {
+  font-size: 3rem;
+  font-size: 48px;
+  /*fallback*/
+}
+
+/*font styles*/
+.fst-normal {
+  font-style: normal;
+}
+
+.fst-italic {
+  font-style: italic;
+}
+
+.fst-oblique {
+  font-style: oblique;
+}
+
+/*responsive grid row*/
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*grid-size variables*/
+/* up to 480px 1 column max */
+/* 481px to 768px 6 column max*/
+/* 769px to 1024px 9column max*/
+/* 1025px+ 12 column max*/
+/*default grid(column:12) with mobile grid(column: 1)*/
+.col-1 {
+  width: 8.3333333333%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-1 {
+    width: 100%;
+  }
+}
+.col-2 {
+  width: 16.6666666667%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+.col-3 {
+  width: 25%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-3 {
+    width: 100%;
+  }
+}
+.col-4 {
+  width: 33.3333333333%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-4 {
+    width: 100%;
+  }
+}
+.col-5 {
+  width: 41.6666666667%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-5 {
+    width: 100%;
+  }
+}
+.col-6 {
+  width: 50%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+.col-7 {
+  width: 58.3333333333%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-7 {
+    width: 100%;
+  }
+}
+.col-8 {
+  width: 66.6666666667%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-8 {
+    width: 100%;
+  }
+}
+.col-9 {
+  width: 75%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-9 {
+    width: 100%;
+  }
+}
+.col-10 {
+  width: 83.3333333333%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-10 {
+    width: 100%;
+  }
+}
+.col-11 {
+  width: 91.6666666667%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-11 {
+    width: 100%;
+  }
+}
+.col-12 {
+  width: 100%;
+}
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+  .col-12 {
+    width: 100%;
+  }
+}
+.test {
+  border: 1px solid;
+}
+
+/*small-size grid from 461 px to 768px(column: 6)*/
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .col-ss-1 {
+    width: 16.6666666667%;
+  }
+
+  .col-ss-2 {
+    width: 33.3333333333%;
+  }
+
+  .col-ss-3 {
+    width: 50%;
+  }
+
+  .col-ss-4 {
+    width: 66.6666666667%;
+  }
+
+  .col-ss-5 {
+    width: 83.3333333333%;
+  }
+
+  .col-ss-6 {
+    width: 100%;
+  }
+}
+/*medium-size grid from 769px to 1024px(column: 9)*/
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .col-ms-1 {
+    width: 11.1111111111%;
+  }
+
+  .col-ms-2 {
+    width: 22.2222222222%;
+  }
+
+  .col-ms-3 {
+    width: 33.3333333333%;
+  }
+
+  .col-ms-4 {
+    width: 44.4444444444%;
+  }
+
+  .col-ms-5 {
+    width: 55.5555555556%;
+  }
+
+  .col-ms-6 {
+    width: 66.6666666667%;
+  }
+
+  .col-ms-7 {
+    width: 77.7777777778%;
+  }
+
+  .col-ms-8 {
+    width: 88.8888888889%;
+  }
+}
+/* h settings*/
+h1 {
+  font-size: 3rem;
+  font-size: 48px;
+  /*Fallback*/
+}
+
+h2 {
+  font-size: 2rem;
+  font-size: 24px;
+  /*Fallback*/
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-size: 32px;
+  /*Fallback*/
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-size: 18px;
+  /*Fallback*/
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-size: 18px;
+  /*Fallback*/
+}
+
+h6 {
+  font-size: 1.125rem;
+  font-size: 18px;
+  /*Fallback*/
+}
+
+/*p settings*/
+p {
+  font-size: 1rem;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+p span {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-size: 16px;
+}
+
+/* a settings*/
+a {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:hover {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+/*list settings*/
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+}
+
+/*Button settings*/
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border: 1px solid #a9a9a9;
+  border-radius: 2px;
+}
+
+/* focus setting*/
+:focus {
+  outline: none !important;
+  border: 1px solid #000000;
+}
+
+button:hover {
+  border-color: #808080;
+}
+
+button:active {
+  box-shadow: inset 0 0 2px 1px #808080;
+}
+
+/*Form settings*/
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+input {
+  cursor: pointer;
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  padding: 5px;
+  width: 300px;
+}
+
+select {
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+/*header settings*/
+header {
+  width: auto;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-size: 16px;
+  /*fallback*/
+}
+
+header ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+header li {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+
+header li:nth-child(1) {
+  margin-left: 0px;
+}
+
+header li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+/* footer settings*/
+footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+footer li {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}
+
+footer li:nth-child(1) {
+  margin-left: 0px;
+}
+
+footer li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+/*max-width body attrbutes*/
+.max-960 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.max-1140px {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */

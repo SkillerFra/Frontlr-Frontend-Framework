@@ -1,0 +1,174 @@
+/*font stylesheet*/
+/*safe fonts*/
+/*serif fonts*/
+$georgia: Georgia, serif;
+$palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$tnr: "Times New Roman", Times, serif;
+
+.f-gerogia {
+    font-family: $georgia;
+}
+
+.f-palation-lino {
+    font-family: $palatino;
+}
+
+.f-tnr {
+    font-family: $tnr;
+}
+
+/*sans-serif fonts*/
+
+$arial: Arial, Helvetica, sans-serif;
+$arial-black: "Arial Black", Gadget, sans-serif;
+$comic-sans: "Comic Sans MS", cursive, sans-serif;
+$impact: Impact, Charcoal, sans-serif;
+$luciada-sans-unicode: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$tahoma: Tahoma, Geneva, sans-serif;
+$trebuchet: "Trebuchet MS", Helvetica, sans-serif;
+$verdana: Verdana, Geneva, sans-serif;
+
+.f-arial {
+    font-family: $arial;
+}
+
+.f-arial-black {
+    font-family: $arial-black;
+}
+
+.f-comic-sans {
+    font-family: $comic-sans;
+}
+
+.f_impact {
+    font-family: $impact;
+}
+
+.f-luciada-sans-unicode {
+    font-family: $luciada-sans-unicode;
+}
+
+.f-tahoma {
+    font-family: $tahoma;
+}
+
+.f_trebuchet {
+    font-family: $trebuchet;
+}
+
+.f-verdana {
+    font-family: $verdana;
+}
+
+/*monospace fonts*/
+
+$courier: "Courier New", Courier, monospace;
+$lucida-console: "Lucida Console", Monaco, monospace;
+
+.f-courier {
+    font-family: $courier;
+}
+
+.f-lucida-console {
+    font-family: $lucida-console;
+}
+
+/*font weight*/
+
+$fontweight: (
+    "supersmall":100,
+    "small":200,
+    "regular": 400,
+    "medium":500,
+    "bold": 700,
+    "bolder": 900,
+);
+
+.fw-supersmall {
+    font-weight: map-get($fontweight, supersmall );
+}
+
+.fw-small {
+    font-weight: map-get($fontweight , small );
+}
+
+.fw-regular {
+    font-weight: map-get($fontweight , regular );
+}
+
+.fw-medium {
+    font-weight: map-get($fontweight , medium );
+}
+
+.fw-bold {
+    font-weight: map-get($fontweight, bold );
+}
+
+.fw-bolder {
+    font-weight: map-get($fontweight, bolder );
+}
+
+/*font sizes*/
+
+$fontsize: (
+    "small": 0.75rem,
+    "regular": 1rem,
+    "medium": 1.125rem,
+    "large": 1.5rem,
+    "larger": 2rem,
+    "superlarge": 3rem,
+);
+
+.fs-small {
+    font-size: map-get( $fontsize , small );
+    font-size: 12px;/*fallback*/
+}
+
+.fs-regular {
+    font-size: map-get( $fontsize , regular );
+    font-size: 16px;/*fallback*/
+}
+
+.fs-medium {
+    font-size: map-get( $fontsize , medium);
+    font-size: 18px;/*fallback*/
+}
+
+.fs-large {
+    font-size: map-get( $fontsize , large);
+    font-size: 24px;/*fallback*/
+}
+
+.fs-larger {
+    font-size: map-get( $fontsize , larger );
+    font-size: 32px;/*fallback*/
+}
+
+.fs-superlarge {
+    font-size: map-get( $fontsize , superlarge );
+    font-size: 48px;/*fallback*/
+}
+
+
+/*font styles*/
+
+$fontstyle: (
+    "normal": normal,
+    "italic": italic,
+    "oblique": oblique,
+);
+
+.fst-normal {
+    font-style: map-get($fontstyle, normal );
+}
+
+.fst-italic {
+    font-style: map-get($fontstyle, italic );
+}
+
+.fst-oblique {
+    font-style: map-get($fontstyle, oblique );
+}
+
+
+

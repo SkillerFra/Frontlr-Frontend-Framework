@@ -1,0 +1,335 @@
+/*Color Themes*/
+
+/*Color Variables*/
+
+/*Dark Theme Variables*/
+
+$d-w:  #ffffff;
+$d-ld: #393e46;
+$d-d: #263238;
+$d-dd: #222831;
+
+/*Dark Theme Classes*/
+
+.d-w {
+    background-color: $d-w;
+}
+
+.dark-white {
+    background-color: $d-w;
+}
+
+.d-ld {
+    background-color: $d-ld;
+}
+
+.dark-light-dark {
+    background-color: $d-ld;
+}
+
+.d-d {
+    background-color: $d-d;
+}
+
+.dark-dark {
+    background-color: $d-d;
+}
+
+.d-dd {
+    background-color: $d-dd;
+}
+
+.dark-dark-dark {
+    background-color: $d-dd;
+}
+
+/*Blue Theme Variables*/
+
+$b-w: #ffffff;
+$b-lb: #dbe2ef;
+$b-b: #3f72af;
+$b-db: #112d4e;
+
+/*Blue Theme Classes*/
+
+.b-w {
+    background-color: $b-w;
+}
+
+.blue-white {
+    background-color: $b-w;
+}
+
+.b-lb {
+    background-color: $b-lb;
+}
+
+.blue-light-blue {
+    background-color: $b-lb;
+}
+
+.b-b {
+    background-color: $b-b;
+}
+
+.blue-blue {
+    background-color: $b-b;
+}
+
+.b-db {
+    background-color: $b-db;
+}
+
+.blue-dark-blue {
+    background-color: $b-db;
+}
+
+/*Green Theme Variables*/
+
+$g-w: #ffffff;
+$g-lg: #9df3c4;
+$g-g: #62d2a2;
+$g-dg: #1fab89;
+
+/*Green Theme Classes*/
+
+.g-w {
+    background-color: $g-w;
+}
+
+.green-white {
+    background-color: $g-w;
+}
+
+.g-lg {
+    background-color: $g-lg;
+}
+
+.green-light-green {
+    background-color: $g-lg;
+}
+
+.g-g {
+    background-color: $g-g;
+}
+
+.green-green {
+    background-color: $g-g;
+}
+
+.g-dg {
+    background-color: $g-dg;
+}
+
+.green-dark-green {
+    background-color: $g-dg;
+}
+
+/*Red Theme Variables*/
+
+$r-w: #ffffff;
+$r-lr: #e3afbc;
+$r-r: #9a1750;
+$r-dr: #5d001e;
+
+/*Red Theme Classses*/
+
+.r-w {
+    background-color: $r-w;
+}
+
+.red-white {
+    background-color: $r-w;
+}
+
+.r-lr {
+    background-color: $r-lr;
+}
+
+.red-light-red {
+    background-color: $r-lr;
+}
+
+.r-r {
+    background-color: $r-r;
+}
+
+.red-red {
+    background-color: $r-r;
+}
+
+.r-dr {
+    background-color: $r-dr;
+}
+
+.red-dark-red {
+    background-color: $r-dr;
+}
+
+/*Orange Theme Variables*/
+
+$o-w: #ffffff;
+$o-lo: #ffaf42;
+$o-o: #fe6e00;
+$o-do: #fd5602;
+
+/*Orange Theme Classes*/
+
+.o-w {
+    background-color: $o-w;
+}
+
+.orange-white {
+    background-color: $o-w;
+}
+
+.o-lo {
+    background-color: $o-lo;
+}
+
+.orange-light-orange {
+    background-color: $o-lo;
+}
+
+.o-o {
+    background-color: $o-o;
+}
+
+.orange-orange {
+    background-color: $o-o;
+}
+
+.o-do {
+    background-color: $o-do;
+}
+
+.orange-dark-orange {
+    background-color: $o-do;
+}
+
+/*Yellow Theme Variables*/
+
+$y-w: #ffffff;
+$y-ly: #ffe000;
+$y-y: #ffd802;
+$y-dy: #fcc201;
+
+/*Yellow Theme Classes*/
+
+.y-w {
+    background-color: $y-w;
+}
+
+.yellow-white {
+    background-color: $y-w;
+}
+
+.y-ly {
+    background-color: $y-ly;
+}
+
+.yellow-light-yellow {
+    background-color: $y-ly;
+}
+
+.y-y {
+    background-color: $y-y;
+}
+
+.yellow-yellow {
+    background-color: $y-y;
+}
+
+.y-dy {
+    background-color: $y-dy;
+}
+
+.yellow-dark-yellow {
+    background-color: $y-dy;
+}
+
+/*Purple Theme Variables*/
+
+$p-w: #ffffff;
+$p-lp: #de95ba;
+$p-p: #7f4a88;
+$p-dp: #4a266a;
+
+/*Purple Theme Classes*/
+
+.p-w {
+    background-color: $p-w;
+}
+
+.purple-white {
+    background-color: $p-w;
+}
+
+.p-lp {
+    background-color: $p-lp;
+}
+
+.purple-light-purple {
+    background-color: $p-lp;
+}
+
+.p-p {
+    background-color: $p-p;
+}
+
+.purple-purple {
+    background-color: $p-p;
+}
+
+.p-dp {
+    background-color: $p-dp;
+}
+
+.purple-dark-purple {
+    background-color: $p-dp;
+}
+
+/*Grey Theme Variables*/
+
+$g-w: #ffffff;
+$g-lg: #e7e7e7;
+$g-g: #d1d1d1;
+$g-dg: #9b9b9b;
+
+/*Grey Theme Classes*/
+
+.g-w {
+    background-color: $g-w;
+}
+
+.grey-white {
+    background-color: $g-w;
+}
+
+.g-lg {
+    background-color: $g-lg;
+}
+
+.grey-light-grey {
+    background-color: $g-lg;
+}
+
+.g-g {
+    background-color: $g-g;
+}
+
+.grey-grey {
+    background-color: $g-g;
+}
+
+.g-dg {
+    background-color: $g-dg;
+}
+
+.grey-dark-grey {
+    background-color: $g-dg;
+}
+
+
+
+
